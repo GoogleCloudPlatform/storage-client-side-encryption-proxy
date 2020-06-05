@@ -1,0 +1,20 @@
+# IDE
+.vscode
+
+# application specific
+wdek*.json
+coverage.out
+cleartext*
+demo.*
+samples/*.enc
+plaintext.pdf
+logs.out
+
+# avoid certificates
+*.pem
+tools/*.pem
+tools/generate_cert
+
+
+# binaries
+tinkproxy
